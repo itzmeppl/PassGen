@@ -41,7 +41,7 @@ def generator():
 print("Welcome to the password manager!\n\n")
 choice = ''
 
-#prompts the user on what they want to do and prompts until their respond isnt valid
+#prompts the user on what they want to do and prompts until their response isn't valid
 while True:
 	print("What would you like to do?")
 	print("A. Generate new password \t B. Add an existing password to file \t C. Update password \t D. Look up a password\n")
@@ -57,10 +57,10 @@ elif choice == 'B':
 	#call a function to do file IO stuff
 	print("reached choice B")
 elif choice == 'C':
-	#update password for soemthing
+	#update password for something
 	print("reached choice C")
 elif choice == 'D':
-	#Find a passwrd
+	#Find a password
 	print("reached choice D")
 
 usr_name = input("What is your name?")
